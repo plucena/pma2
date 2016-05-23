@@ -1,6 +1,5 @@
 {
   "require": {
-    "ext-mysqli": "*",
-    "universaldb/pdo_pgsql": "*"
+    "ext-mysqli": "*"  
   }
 }
