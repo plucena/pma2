@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: pma2
+  host: pma2
+  disk_quota: 1024M
+  services:
+  - mysql-3d
+  buildpack: php_buildpack
